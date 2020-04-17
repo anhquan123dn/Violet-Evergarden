@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Violet Evergarden</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gotu&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gotu&family=Playfair+Display:ital,wght@1,600&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/26ac62eb53.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.5.10/plyr.css" />
+    <link rel="stylesheet" href="/public/javascripts/swiper/swiper.min.css" />
+    <link rel="stylesheet" href="/public/stylesheets/style.css" />
+  </head>
+
+  <body>
+    <section class="header">
+      <div class="header-background">
+        <video class="PC" autoplay loop width="100%">
+          <source
+            src="https://res.cloudinary.com/mavis/video/upload/v1586951018/Animation/Vioet-Evergarden-1_um7cd7.mp4"
+          />
+        </video>
+        <img
+          width="100%"
+          class="Smartphone-Tablet"
+          src="https://res.cloudinary.com/mavis/image/upload/v1587049930/img/900448_2_-min_v5jazs.png"
+        />
+        <div class="header-taskbar">
+          <div class="header-taskbar-info">
+            Info
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="content">
+      <div class="content-trailer">
+        <img
+          class="content-trailer-img--left"
+          src="https://res.cloudinary.com/mavis/image/upload/v1586491165/img/903094-removebg_rvtjxs.png"
+          alt=""
+        />
+        <img
+          class="content-trailer-img--right"
+          src="https://res.cloudinary.com/mavis/image/upload/v1586491165/img/903094-removebg_rvtjxs.png"
+          alt=""
+        />
+        <div class="content-trailer-music">
+          <video
+            controls
+            width="100%"
+            poster="https://res.cloudinary.com/mavis/image/upload/v1586491165/img/910057_doko6d.png"
+            id="player"
+          >
+            <source
+              src="https://res.cloudinary.com/mavis/video/upload/v1586525793/sound/Lovely_-_AMV_-_Anime_MV_ilqwco.mp4"
+              type="video/mp4"
+            />
+          </video>
+        </div>
+      </div>
+      <video
+        class="PC"
+        style="z-index: -1;"
+        width="100%"
+        loop
+        autoplay
+        src="https://res.cloudinary.com/mavis/video/upload/v1586685150/Animation/Hoadao_Ver2-1_avww2v.mp4"
+      ></video>
+      <div class="Smartphone-Tablet" style="width: 100%; height: 200px;"></div>
+    </section>
+    <section class="plot">
+      <div class="plot-violet-text" style="font-family: 'Gotu', sans-serif;">
+        <p>
+          Câu chuyện xoay quanh những Hình nhân ghi chép tự động (自動手記人形
+          (Tự động thủ ký nhân hình)): búp bê được tạo ra bởi Dr. Orland để giúp
+          người vợ mù Mollie của mình viết tiểu thuyết, và sau đó là cho những
+          người khác cũng cần sự giúp đỡ tương tự. Ở thời điểm hiện tại, tên gọi
+          đó ám chỉ ngành công nghiệp viết hộ/viết thuê (ghostwritter). Mặc dù
+          chức năng ban đầu của Hình nhân ghi chép tự động chỉ là chuyển lời nói
+          thành văn bản, nhưng một nhóm người khác đã lập ra công ty để "cho
+          thuê" những phụ nữ tài năng xinh đẹp, vừa có khả năng năng giống như
+          Hình nhân ghi chép tự động ban đầu, lại vừa có thể thực hiện các nhiệm
+          vụ có mục đích dân sự lẫn quân sự.
+        </p>
+      </div>
+      <img
+        src="https://res.cloudinary.com/mavis/image/upload/v1586688522/img/888035_xzr2id_ihxol7.png"
+      />
+    </section>
+    <section class="empty"></section>
+    <section style="width: inherit; height: 500px;" class="character">
+      <div class="swiper-container">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide claudia"></div>
+          <div class="swiper-slide gilbert"></div>
+          <div class="swiper-slide cattleya"></div>
+          <div class="swiper-slide violet"></div>
+          <div class="swiper-slide benedict"></div>
+          <div class="swiper-slide erica"></div>
+          <div class="swiper-slide iris"></div>
+          ...
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </section>
+    <section
+      style="
+        width: inherit;
+        height: 500px;
+        background-color: rgba(0, 0, 0, 0.156);
+      "
+    ></section>
+  </body>
+  <script src="https://cdn.plyr.io/3.5.10/plyr.polyfilled.js"></script>
+  <script src="/public/javascripts/swiper/swiper.min.js"></script>
+  <script src="/public/javascripts/videojs.js"></script>
+</html>
