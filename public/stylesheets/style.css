@@ -203,6 +203,141 @@ body {
 
   .empty {
     height: 650px; } }
+#box {
+  width: 100px;
+  height: 100px;
+  background-color: blue; }
+
+.Smartphone-Tablet {
+  display: none; }
+
+.character {
+  display: grid;
+  grid-template-columns: auto auto; }
+
+.swiper-container {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: 0 auto;
+  overflow: hidden; }
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 400px; }
+
+.swiper-lazy {
+  width: inherit;
+  height: inherit;
+  object-fit: cover; }
+
+#character-info {
+  width: 600px;
+  height: auto; }
+
+.plot-violet-text,
+#character-info p {
+  font-family: "Gotu", sans-serif; }
+
+#character-info p {
+  padding: 100px; }
+
+#character-info .hide {
+  display: none; }
+
+@media only screen and (min-width: 50em) and (max-width: 75em) {
+  .content-trailer {
+    width: 37rem;
+    height: 21rem; }
+
+  .content-trailer img {
+    max-width: 700px; }
+
+  .content-trailer-img--left {
+    left: -300px; }
+
+  .content-trailer-img--right {
+    right: -300px; }
+
+  .plot {
+    column-gap: 50px; }
+
+  .plot img {
+    height: 500px; }
+
+  .plot-violet-text {
+    font-size: 0.85rem; } }
+@media only screen and (min-width: 37.5em) and (max-width: 49.9375em) {
+  .content-trailer {
+    width: 25rem;
+    height: 14.175rem; }
+
+  .content-trailer img {
+    max-width: 550px; }
+
+  .content-trailer-img--left {
+    left: -240px; }
+
+  .content-trailer-img--right {
+    right: -240px; }
+
+  .plot {
+    column-gap: 30px; }
+
+  .plot img {
+    height: 400px;
+    margin-right: 10px; }
+
+  .plot-violet-text {
+    font-size: 0.8rem;
+    margin-left: 15px; }
+
+  .plot {
+    height: 550px; }
+
+  .empty {
+    height: 550px; } }
+@media only screen and (min-width: 25em) and (max-width: 37.4375em) {
+  .content-trailer {
+    width: 17rem;
+    height: 9.75rem; }
+
+  .content-trailer img {
+    max-width: 450px; }
+
+  .content-trailer-img--left {
+    left: -200px; }
+
+  .content-trailer-img--right {
+    right: -200px; }
+
+  .header-taskbar-info {
+    font-size: 1rem; }
+
+  .plot {
+    grid-template-columns: auto;
+    height: auto; }
+
+  .plot img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    margin: 0;
+    object-fit: contain; }
+
+  .plot-violet-text {
+    font-size: 0.85rem;
+    margin: 0;
+    padding: 10px;
+    z-index: 1; }
+
+  .plot-violet-text::first-letter {
+    font-size: 2em; }
+
+  .empty {
+    height: 650px; } }
 @media only screen and (max-width: 24.9375em) {
   .content-trailer {
     width: 17rem;
