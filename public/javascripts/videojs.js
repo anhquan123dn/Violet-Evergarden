@@ -18,7 +18,7 @@ const mySwiper = new Swiper(".swiper-container", {
     el: ".swiper-pagination",
   },
   autoplay: true,
-  autoResize: true,
+  // autoResize: true,
   initialSlide: 3,
   loop: true,
 });
