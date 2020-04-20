@@ -8,14 +8,24 @@ block content
       img.Smartphone-Tablet(width='100%', src='https://res.cloudinary.com/mavis/image/upload/v1587049930/img/900448_2_-min_v5jazs.png')
       .header-taskbar
         .header-taskbar-info
-          | Info
+          label.header-taskbar-menu(for='check')
+            i.fas.fa-bars
+          input#check(type='checkbox', hidden='')
+          label.header-taskbar-menu-list(for='check')  
+          div
+            h1 Violet Evergarden
+            ul
+              a(href='https://sonako.fandom.com/wiki/Violet_Evergarden_T%E1%BA%ADp_1_Ch%C6%B0%C6%A1ng_1')
+                li Light Novel
+              a(href='https://animehay.tv/tim-kiem?q=violet+evergarden')
+                li Movie
   section.content
     .content-trailer
       img.content-trailer-img--left(src='https://res.cloudinary.com/mavis/image/upload/v1586491165/img/903094-removebg_rvtjxs.png', alt='')
       img.content-trailer-img--right(src='https://res.cloudinary.com/mavis/image/upload/v1586491165/img/903094-removebg_rvtjxs.png', alt='')
       .content-trailer-music
         video#player(controls='', width='100%', poster='https://res.cloudinary.com/mavis/image/upload/v1586491165/img/910057_doko6d.png')
-          source(src='https://res.cloudinary.com/mavis/video/upload/v1586525793/sound/Lovely_-_AMV_-_Anime_MV_ilqwco.mp4', type='video/mp4')
+          source(src='//res.cloudinary.com/mavis/video/upload/v1587393583/sound/%E3%83%B4%E3%82%A1%E3%82%A4%E3%82%AA%E3%83%AC%E3%83%83%E3%83%88_%E3%82%A8%E3%83%B4%E3%82%A1%E3%83%BC%E3%82%AC%E3%83%BC%E3%83%87%E3%83%B3_Violet_Evergarden_CM_fuiz19.mp4', type='video/mp4')
     video.PC(style='z-index:-1;', width='100%', loop='', autoplay='', src='https://res.cloudinary.com/mavis/video/upload/v1586685150/Animation/Hoadao_Ver2-1_avww2v.mp4')
     .Smartphone-Tablet(style='width: 100%; height: 200px;')
   section.plot
@@ -110,7 +120,16 @@ block content
         p
           | Iris là Hình nhân Ghi chép Tự động đến làm việc tại công ty bưu
           |  chính CH sau Erica.
-  section(style='width: inherit; height: 500px; background-color: black;')
+  section.footer(style='width: inherit;')
+    .MyName
+      h1 MAVIS
+    .footer-info
+      ul
+        li About
+        li Contact
+    .footer-logo
+      img(src='https://res.cloudinary.com/mavis/image/upload/v1587386544/logo/MAVIS_htrak3.jpg')
+
   script(src='//cdn.plyr.io/3.5.10/plyr.polyfilled.js')
   script(src='//kit.fontawesome.com/26ac62eb53.js', crossorigin='anonymous')
   script(src='/javascripts/swiper/swiper.min.js')

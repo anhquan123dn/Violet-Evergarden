@@ -16,6 +16,10 @@
       href="https://fonts.googleapis.com/css2?family=Gotu&family=Playfair+Display:ital,wght@1,600&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&family=Playfair+Display:ital@1&display=swap"
+      rel="stylesheet"
+    />
     <script
       src="https://kit.fontawesome.com/26ac62eb53.js"
       crossorigin="anonymous"
@@ -40,7 +44,24 @@
         />
         <div class="header-taskbar">
           <div class="header-taskbar-info">
-            Info
+            <label class="header-taskbar-menu" for="check">
+              <i class="fas fa-bars"></i>
+            </label>
+            <input type="checkbox" id="check" hidden />
+            <label class="header-taskbar-menu-list" for="check"> </label>
+            <div>
+              <h1>Violet Evergarden</h1>
+              <ul>
+                <a
+                  href="https://sonako.fandom.com/wiki/Violet_Evergarden_T%E1%BA%ADp_1_Ch%C6%B0%C6%A1ng_1"
+                  ><li>Light Novel</li></a
+                >
+
+                <a href="https://animehay.tv/tim-kiem?q=violet+evergarden"
+                  ><li>Movie</li></a
+                >
+              </ul>
+            </div>
           </div>
         </div>
       </div>
@@ -224,13 +245,20 @@
         </div>
       </div>
     </section>
-    <section
-      style="
-        width: inherit;
-        height: 500px;
-        background-color: rgba(0, 0, 0, 0.156);
-      "
-    ></section>
+    <section style="width: inherit;" class="footer">
+      <div class="MyName"><h1>MAVIS</h1></div>
+      <div class="footer-info">
+        <ul>
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+      <div class="footer-logo">
+        <img
+          src="https://res.cloudinary.com/mavis/image/upload/v1587386544/logo/MAVIS_htrak3.jpg"
+        />
+      </div>
+    </section>
   </body>
   <script src="//cdn.plyr.io/3.5.10/plyr.polyfilled.js"></script>
   <script src="/public/javascripts/swiper/swiper.min.js" async></script>
